@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Impressum – ACME</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Impressum</h1>
+      <div class="update"></div>
+    </header>
+    <article>
+      <p>ACME GmbH · Musterstraße 1, 10115 Berlin · hello@acme.example</p>
+      <p>Handelsregister: … · USt-IdNr.: … · Vertretungsberechtigte Geschäftsführer: …</p>
+      <p><a href="index.html">Zur Datenschutzerklärung</a></p>
+    </article>
+  </div>
+  <script>
+    document.querySelector('.update').textContent = 'Stand: ' + new Date().toLocaleDateString('de-DE');
+  </script>
+</body>
+</html>

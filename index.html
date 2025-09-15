@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung – ACME App</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Datenschutzerklärung</h1>
+      <div class="update">Stand: <!--DATE--> </div>
+    </header>
+    <main>
+      <nav>
+        <h3>Inhalt</h3>
+        <ul>
+          <li><a href="#verantwortlicher">Verantwortlicher</a></li>
+          <li><a href="#arten">Arten der Daten</a></li>
+          <li><a href="#zwecke">Zwecke & Rechtsgrundlagen</a></li>
+          <li><a href="#dienste">Drittanbieter/Dienste</a></li>
+          <li><a href="#hosting">Hosting (GitHub Pages)</a></li>
+          <li><a href="#rechte">Rechte der Betroffenen</a></li>
+          <li><a href="#kontakt">Kontakt & Beschwerden</a></li>
+          <li><a href="#aenderungen">Änderungen</a></li>
+        </ul>
+      </nav>
+      <article>
+        <section id="verantwortlicher">
+          <h2>1. Verantwortlicher</h2>
+          <p>ACME GmbH · Musterstraße 1, 10115 Berlin, Deutschland<br>
+          E-Mail: <a href="mailto:privacy@acme.example">privacy@acme.example</a></p>
+        </section>
+
+        <section id="arten">
+          <h2>2. Arten verarbeiteter Daten</h2>
+          <ul>
+            <li>Account-Daten (z. B. E-Mail, Name)</li>
+            <li>Nutzungs-/Crash-Daten</li>
+            <li>Geräteinformationen (OS-Version, Modell)</li>
+            <li>Optionale Daten (z. B. Standort, wenn freigegeben)</li>
+          </ul>
+        </section>
+
+        <section id="zwecke">
+          <h2>3. Zwecke &amp; Rechtsgrundlagen (Art. 6 DSGVO)</h2>
+          <ul>
+            <li><span class="badge">Vertrag</span> Bereitstellung der App (Art. 6 Abs. 1 lit. b)</li>
+            <li><span class="badge">Berechtigtes Interesse</span> Betrieb/Sicherheit, Fehleranalyse (Art. 6 Abs. 1 lit. f)</li>
+            <li><span class="badge">Einwilligung</span> Marketing/Analytics &amp; optionale Pushes (Art. 6 Abs. 1 lit. a)</li>
+          </ul>
+        </section>
+
+        <section id="dienste">
+          <h2>4. App-spezifische Dienste/Drittanbieter</h2>
+          <p>Beispiele – bitte für eure App konkretisieren:</p>
+          <h3>Crash/Analytics (z.&nbsp;B. Sentry, Firebase)</h3>
+          <p>Verarbeitete Daten, Zweck, Rechtsgrundlage, Speicherdauer, Empfänger, Drittlandübermittlung/SCCs.</p>
+          <h3>Push (FCM/APNs)</h3>
+          <p>Token, Gerätemodell, Ereignisse – Rechtsgrundlage i.d.R. Einwilligung.</p>
+          <h3>Auth/Backend (z.&nbsp;B. Auth0/Supabase)</h3>
+          <p>Account-Daten, Sitz des Anbieters, AV-Vertrag.</p>
+        </section>
+
+        <section id="hosting">
+          <h2>5. Hosting dieser Seite (GitHub Pages)</h2>
+          <p>Beim Aufruf dieser Rechteseite werden technisch notwendige Server-Logs verarbeitet (IP-Adresse, User-Agent, Zeitstempel) durch den Anbieter GitHub, Inc. (USA).
+          Rechtsgrundlage: berechtigtes Interesse an stabiler Bereitstellung (Art. 6 Abs. 1 lit. f). Übermittlungen in die USA stützen sich auf EU-Standardvertragsklauseln.</p>
+          <p>Weitere Infos: <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement">GitHub Privacy Statement</a>.</p>
+        </section>
+
+        <section id="rechte">
+          <h2>6. Rechte der Betroffenen</h2>
+          <p>Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerspruch (Art. 15–21 DSGVO).
+          Einwilligungen können jederzeit mit Wirkung für die Zukunft widerrufen werden.</p>
+        </section>
+
+        <section id="kontakt">
+          <h2>7. Kontakt &amp; Beschwerden</h2>
+          <p>Kontakt: <a href="mailto:privacy@acme.example">privacy@acme.example</a><br>
+          Zuständige Aufsichtsbehörde entsprechend Sitz des Verantwortlichen.</p>
+        </section>
+
+        <section id="aenderungen">
+          <h2>8. Änderungen</h2>
+          <p>Diese Erklärung wird angepasst, wenn sich Funktionen oder Rechtslagen ändern.</p>
+        </section>
+
+        <footer>
+          <a href="impressum.html">Impressum</a> · <a href="privacy.html">Privacy (EN)</a>
+        </footer>
+      </article>
+    </main>
+  </div>
+  <script>
+    // insert today's date
+    document.querySelector('.update').textContent = 
+      'Stand: ' + new Date().toLocaleDateString('de-DE');
+  </script>
+</body>
+</html>
