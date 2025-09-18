@@ -1,5 +1,8 @@
 # Legal Pages (GitHub Pages)
 
+Final page: https://amt-odervorland.github.io/app-datenschutz/
+
+
 This folder contains a minimal static site for a German privacy policy (Datenschutzerklärung), built for GitHub Pages.
 
 ## Deploy
